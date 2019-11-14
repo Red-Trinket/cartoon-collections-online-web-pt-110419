@@ -1,9 +1,16 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
+  i = 9
+  while i < dwarves.length 
+    i += 1 
+    puts "#{i+1}. #{dwarves[i]}"
+  end 
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)# code an argument here
   # Your code here
+  array.map! {|name| name.capitalize}
+  array.collect {|name| name + "!"}
 end
 
 def long_planeteer_calls# code an argument here
