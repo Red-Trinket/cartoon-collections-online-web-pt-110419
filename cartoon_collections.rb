@@ -18,6 +18,9 @@ def long_planeteer_calls(words)# code an argument here
   truthArray = []
   counter = 0 
   while counter < words.length 
+    truthArray << yield words[counter] {counter.length > 4} 
+    counter += 1 
+  end 
 end
 
 def find_the_cheese# code an argument here
