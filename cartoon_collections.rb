@@ -15,7 +15,9 @@ end
 
 def long_planeteer_calls(words)# code an argument here
   # Your code here
-  
+  truthArray = []
+  counter = 0 
+  while counter < words.length 
 end
 
 def find_the_cheese# code an argument here
